@@ -1,0 +1,52 @@
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 5rem;
+    align-items: center;
+  }
+  
+  .socials {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+  }
+  
+  .socials a {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    margin-right: 20px;
+    transition: 0.3s;
+  }
+  
+  .socials a:hover {
+    transform: translateY(-5px);
+  }
+  .about__biography{ 
+      margin: 100px calc((100% - 1000px)/2);
+      width: auto;
+  }
+  .about__biography__title{
+      font-size: 20px;
+      text-align: center;
+      width: auto;
+  }
+  .image-row {
+      display: flex;
+      justify-content: space-around; 
+  }
+  .image-row img {
+      width: 200px; 
+      height: 200px; 
+      object-fit: cover; 
+      transition: transform 0.3s ease;
+  }
+  .level:hover img {
+      transform: scale(1.1); 
+  }
+  
+  .about-img img {
+    width: 800px;
+    max-width: 100%;
+    box-shadow: 10px 10px var(--main-color);
+    height: 300px;
+  }

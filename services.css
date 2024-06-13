@@ -1,0 +1,37 @@
+.services-section {
+    margin-top: 40px;}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-right: auto;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+.skill-level {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-bar {
+    width: 80%;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.skill-bar div {
+    height: 20px;
+    border-radius: 5px;
+}
+.skill-html { width: 60%; background-color: #ec1e17; }
+.skill-css { width: 60%; background-color: #3bbb2a; }
+.skill-js { width: 40%; background-color: #e5e768; }
+

@@ -1,0 +1,75 @@
+.contact {
+  text-align: center;
+}
+
+.contact-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 4.2rem;
+}
+
+.contact-form form {
+  position: relative;
+  width: 550px;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 20px;
+  outline: none;
+  border: none;
+  background: #b6e9e6;
+  color: var(--text-color);
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: var(--2nd-main-color);
+
+
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: var(--main-color);
+}
+
+textarea {
+  height: 200px;
+  resize: none;
+}
+
+form .send-btn {
+  background: var(--main-color);
+  color: var(--text-color);
+  background: #aeb4b4;
+  box-shadow: 4px 4px var(--text-color);
+  display: inline-block;
+  padding: 0 25px;
+  line-height: 42px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  transition: ease all 0.35s;
+  margin-top: 0.5rem;
+}
+
+form .send-btn:hover {
+  background: var(--text-color);
+  color: var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+}
+

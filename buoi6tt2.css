@@ -1,0 +1,33 @@
+body{
+    .container{
+    font-family: "Arial";
+    text-align: center;
+    box-sizing: border-box;
+}
+    .header {
+    width: 100%; 
+    height: 100px; 
+    background-color: #2fbe6f; 
+    border-bottom: 2px solid #fff;
+    text-align: center;
+}
+    .container{
+        display: flex;
+        width: 25%;
+    }
+    .footer{
+        background-color: #333; 
+        color: #fff; 
+        padding: 20px; 
+        text-align: center;
+        position: fixed; 
+        bottom: 0; 
+        width: 100%; 
+    }
+    .footer-box {
+        background-color: #444; /* Màu nền của box */
+        width: 80%; /* Chiều rộng của box */
+        margin: 0 auto; /* Căn giữa box */
+        padding: 10px;
+    }
+}

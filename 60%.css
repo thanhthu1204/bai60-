@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Kosugi Maru", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+}
+
+:root {
+    --main-color:#77ecd9;
+	--secondary-color:#22222d;
+	--gray:#ebebeb;
+	--darkgray:#c2c2c2;
+	--white:#fff;
+	--lightblack:#4e4e4e;
+	--heading-font:'Oswald', sans-serif;
+	--normal-font:system-ui;;
+}
+
+body {
+    background: var(--darkgray);
+	font-family: var(--normal-font)
+}
+
+main {
+    width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	height: 100%;
+	background: var(--white);
+	box-shadow: 5px 21px 19px 4px #0c0c0c57;
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg--color);
+  padding: 24px 14%;
+  transition: 0.3s;
+}
+
+/* Navbar */
+.logo {
+  color: var(--text-color);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+span {
+  color: var(--main-color);
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 20px;
+}
+.socials {
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 2rem;
+}
+h1::after{
+	content: "";
+	height: 2px;
+	width: 100px;
+	position: absolute;
+	background: var(--main-color);
+	bottom: -10px;
+	left: 0;
+}
+
+.para{
+	letter-spacing: 3px;
+	font-family: var(--normal-font);
+	font-size: 17px;
+	margin-top: -10px;
+}
+.para1{
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+.sub-heading{
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-family: system-ui;
+}
+.para2{font-size: 13px; font-weight: 500;}
+.para2 span{
+	background: var(--main-color);
+	padding: 3px 10px;
+	border-radius: 6px;
+	color: white;
+	margin-right: 5px;
+	font-size: 12px;
+}
+.ex{margin-left: -40px; margin-bottom: 40px;}
+.ex li{list-style-type: none; float: left; position: relative;}
+.ex li img{width: 75px; padding-right: 20px;}
